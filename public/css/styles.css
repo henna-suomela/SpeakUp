@@ -1,0 +1,241 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: bold;   
+}
+
+h4 {
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    color: black;
+    line-height: 2;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Abril Fatface', cursive;
+    /* font-family: "Montserrat", sans-serif; */
+    font-size: 3.5 rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-top: 10%;
+    text-align: center;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Sections  */
+
+.pink-section {
+    background-color: #ea97ad;
+    color: black;
+}
+
+.light-section {
+    background-color: #edffec;
+    width: 100%;
+    /* background-color:#f3f2da; */
+
+}
+
+
+/* Title section */
+
+#title .container-fluid {
+    padding: 3% 5% 10%;
+    text-align: left;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 2rem;
+    color: black;
+}
+
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Indie Flower', cursive; */
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-item {
+    padding: 0 18px; 
+}
+
+.nav-link {
+    font-size: 1.23rem;
+    font-family: "Montserrat";
+    color: black;
+}
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.woman {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+
+
+/* Feature Box */
+
+#tietoa {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5% 
+}
+
+.fas {
+    color: #ff4b5c;
+    margin-bottom: 1rem;
+}
+
+.fas:hover {
+    color: #045762;
+}
+
+.sydan {
+    width: 30%;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+
+/* Tuotteet */
+
+#tuotteet {
+    background-color: #ea97ad;
+    color: #e0ece4;
+ 
+}
+
+.testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 0% 20%;
+}
+
+/* Yhteystiedot */
+
+#yhteystiedot {
+    padding: 100px;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Some */
+
+.footer-icons {
+    margin: 20px 10px;
+}
+
+.footer-text {
+    padding: 0% 30%;
+}
+
+
+/* Students */
+
+#students {
+    text-align: center;
+    color: black;
+    padding: 0%;
+}
+
+.calendar {
+    float: left;
+    width: 700px;
+}
+
+
+/* Lists */
+
+table {
+    border-collapse: collapse;
+    vertical-align: top;
+  }
+  
+  table.list {
+    width: 80%;
+  }
+  
+  table.list tr td {
+    border: 1px solid #999999;
+  }
+  
+  table.list tr th {
+    border: 1px solid #045762;
+    background: #045762;
+    color: white;
+    text-align: center;
+  }
+
+  a.action {
+      text-decoration: none;
+      color: #045762;
+  }
+
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .woman{
+        display: none;
+        width: 15%;
+        position: static;
+        transform: rotate(90deg);
+    }
+
+
+}

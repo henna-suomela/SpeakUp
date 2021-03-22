@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Puutarhaliike Neilikka</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Own, modified stylesheet: stylesheets should be in such an order that the last one overrides
+  previous stylesheet modifications -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--Icons CDN-->
+  <script src="https://kit.fontawesome.com/1245db1b61.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap js-code -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="pink-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark" style="padding-left: 0px;">
+        <a class="navbar-brand" href="">Puutarhaliike Neilikka</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#tietoa">Tietoa meistä</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#tuotteet">Tuotteet</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#yhteystiedot">Yhteystiedot</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#some">Some</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <!-- if one specifies large column width as 6, 
+    than with anything smaller than laptop size, 
+    that column takes up to 100% of the space-->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Tervetuloa Puutarhaliike Neilikan kotisivuille! </h1>
+          <br>
+          <h4>Meiltä löydät sekä sisä- että ulkokasvit ja kaiken tarvitsemasi kasvien hoitoon.</h4>
+
+          <!--
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+            Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+            Download</button>
+            -->
+        </div>
+
+
+        <div class="col-lg-6">
+          <img class="carnation" src="images/flower-304476_1280.png" title="Kuva neilikasta">
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Tietoa meistä -->
+
+  <section class="light-section" id="tietoa">
+    <div class="container-fluid">
+      <h2>Tietoa meistä</h2>
+      <br>
+      <p>Puutarhaliike Neilikka on vuonna 1990 perustettu puutarhanhoitoon ja huonekasveihin
+        erikoistunut myymäläketju.
+        <br><br> Ensimmäinen myymälämme perustettiin Helsingin Fabianinkadulle,
+        ja toukokuussa 1997 <br> perustimme ketjun toisen myymälän Espooseen.
+        <br><br>
+        Meiltä löydät kattavan
+        valikoiman sisä- ja ulkokasveja sekä tietysti kaikki työkalut ja muut tarvikkeet niiden
+        hoitoon.
+
+        <br><br>
+        Osaava ja puutarhanhoidosta innostunut henkilökuntamme on aina valmiina auttamaan
+        sinua valitsemaan juuri sinulle sopivimmat tuotteet.
+      </p>
+      <img class="kukka" src="images/bouquet-691862_640.jpg" alt="">
+      <br><br>
+
+    </div>
+  </section>
+
+
+  <!-- Tuotteet -->
+
+  <section id="tuotteet">
+    <div class="container-fluid">
+
+      <div id="testimonialcarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">Tuotevalikoimaamme kuuluvat myös hääkukat.</h2>
+            <img class="testimonial-image" src="images/bouquet-1853622_640.jpg" title="Hääkukka">
+
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">Meiltä saat ulkokukat sekä työkalut puutarhan hoitoon.
+            </h2>
+            <img class="testimonial-image" src="images/planting-780736_640.jpg" title="Puutarhakuva">
+          </div>
+
+
+          <a class="carousel-control-prev" href="#estimonialcarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#testimonialcarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+
+      </div>
+  </section>
+
+  <!-- Yhteystiedot -->
+
+  <section class="light-section" id="yhteystiedot">
+
+    <h2 class="section-heading">Yhteystiedot</h2>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Neilikka Helsinki</h3>
+          </div>
+
+          <div class="card-body">
+            <p>Fabianinkatu 42</p>
+            <p> 00100 Helsinki</p>
+            <p> Puh. 09 123 4567</p>
+            <br>
+
+            <p><strong> Avoinna</strong> </p>
+            <p> ma-ke 9-17</p>
+            <p> la 12-18</p>
+
+            <br>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Lähetä sähköpostia</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Neilikka Espoo</h3>
+          </div>
+
+          <div class="card-body third">
+            <p>Kivenlahdentie 10</p>
+            <p> 01234 Espooi</p>
+            <p> Puh. 09 890 1234</p>
+            <br>
+
+            <p><strong> Avoinna</strong> </p>
+            <p> ma-ke 9-17</p>
+            <p> la 12-18</p><br>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Lähetä sähköpostia</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pricing-column col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Ota yhteyttä</h3>
+          </div>
+
+          <div class="card-body third">
+            <div id="lomake">
+              <form action="">
+                <fieldset>
+                  <legend></legend>
+                  Nimi: <br>
+                  <input type="text" name="nimi"><br><br>
+
+                  Sähköpostiosoite: <br>
+                  <input type="text" name="email"><br><br>
+
+                  Yhteydenoton syy:<br>
+                  <select name="syy">
+                    <option value="">Kysymys tuotteista</option>
+                    <option value="">Yhteydenottopyyntö</option>
+                    <option value="">Muu</option>
+                  </select>
+                  <br><br>
+
+                  Viestikenttä: <br>
+                  <textarea name="viesti"></textarea>
+                  <br><br>
+                  <input type="submit" value="Lähetä"><br><br>
+
+                  <input type="checkbox"> Haluan tilata Puutarhaliike Neilikan uutiskirjeen.
+                  <br><br>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="pink-section" id="some">
+
+    <div class="container-fluid">
+      <p class="footer-text">Klikkaa alta somekanaviimme</p>
+      <i class="fab fa-twitter footer-icons"></i>
+      <i class="fab fa-facebook-f footer-icons"></i>
+      <i class="fab fa-instagram footer-icons"></i>
+      <i class="far fa-envelope footer-icons"></i>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>© Copyright 2021 Henna Suomela</p>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
